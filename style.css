@@ -87,3 +87,9 @@ input[type="color"]:focus,
   justify-items: center;
   padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .grey-bg {
+    background: none;
+  }
+}
