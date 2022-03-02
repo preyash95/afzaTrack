@@ -1,3 +1,21 @@
+body {
+  font-family: "Noto Sans", serif;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
 .title {
   font-size: 28px;
   font-weight: bold;
@@ -51,7 +69,6 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  /* box-shadow: 0 0 0 0.2rem #ea54097a !important; */
   border-bottom: 5px solid #ea5409 !important;
 }
 
