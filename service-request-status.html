@@ -14,10 +14,10 @@
       href="https://fonts.googleapis.com/css?family=Noto+Sans"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./service-request-status.css">
     <title>AFZA Renewal</title>
   </head>
   <body>
-    <!-- <h1>Service request status</h1> -->
     <div class="container">
       <div class="row">
         <div class="col-md-6 firstCol">
@@ -28,29 +28,24 @@
             />
             <h1 class="title">Service request status</h1>
           </div>
-          <img class="service" src="./assests/pngwing.png" alt="pngwing" />
+          <img class="service" src="./assests/images/pngwing.png" alt="pngwing" />
           <div class="grey-bg">
-              <img src="./assests/line.png" alt="">
-              <img src="./assests/border-dot.png" alt="">
-              <img src="./assests/dotted-line.png" alt="">
-              <img src="./assests/border.png" alt="">
-              <img src="./assests/dotted-line.png" alt="">
+              <img src="./assests/images/line.png" alt="">
+              <img src="./assests/images/border-dot.png" alt="">
+              <img src="./assests/images/dotted-line.png" alt="">
+              <img src="./assests/images/border.png" alt="">
+              <img src="./assests/images/dotted-line.png" alt="">
           </div>
         </div>
         <div class="col-md-6 secondCol">
           <h5>Service requested</h5>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Service</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+          <input type="text" class="form-control">
           <br>
           <h5>Date of service request</h5>
-          <input type="date" class="form-control">
+          <input type="date" class="form-control" value="2022-02-28">
           <br>
           <h5>Service request status</h5>
-          <textarea class="form-control" rows="4" aria-label="With textarea" placeholder="Status"></textarea>
+          <textarea class="form-control" rows="4" aria-label="With textarea" placeholder="In progress"></textarea>
         </div>
       </div>
     </div>
