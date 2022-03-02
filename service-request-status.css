@@ -30,7 +30,7 @@ textarea {
   width: 80% !important;
 }
 
-.secondCol input {
+.secondCol input[type='date'] {
   width: 50% !important;
 }
 
