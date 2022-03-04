@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Header navbar</title>
-    <script
-      src="https://kit.fontawesome.com/57c5287908.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       href="https://fonts.googleapis.com/css?family=Noto Sans"
       rel="stylesheet"
@@ -20,8 +16,72 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="servicerequestpage.css" />
+    <link rel="stylesheet" href="./main-navbar.css">
   </head>
   <body>
+    <div class="container customNav">
+      <section>
+          <nav class="navbar navbar-expand-lg navbar-light ">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./assests/images/Rectangle 473.png" alt=""
+                          class="w-75 nav__img"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mb-2 mb-lg-0 ">
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <div class="dropdown">
+                                  <button class="btn dropdown-toggle mx-auto nav-link" type="button"
+                                      id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true"
+                                      aria-expanded="false">More
+                                  </button>
+                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">one</a>
+                                      <a class="dropdown-item" href="#">two</a>
+                          </li>
+                      </ul>
+                      <img class="varal-logo" src="./assests/images/Rectangle 473.png" alt="" class="humburger__icon">
+                      <form class="nav__useraccount pt-3">
+                          <a class="container-2">
+                              <span class="icon"><i class="fa fa-search"></i></span>
+                              <input type="search" id="search" />
+                          </a>
+                          <a class="mx-2 text-decoration-none" href=""><img src="./assests/images/Group 23.png"
+                                  alt="">
+                          </a>
+                          <a class="mx-2 text-decoration-none" href=""><img src="./assests/images/Vector (2).png"
+                                  alt="">
+                          </a>
+                          <img src="./assests/images/Ellipse 3.png" alt="">
+                          <a class="px-1"></a>
+                          <div class="dropdown ">
+                              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">one</a>
+                                  <a class="dropdown-item" href="#">two</a>
+                                  <a class="dropdown-item" href="#">three</a>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </nav>
+      </section>
+    </div>
     <div class="container">
       <div class="section__title">
         <i class="fa-solid fa-arrow-left-long title__arrow"></i>Service request
@@ -70,5 +130,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/57c5287908.js" crossorigin="anonymous"></script>
   </body>
 </html>

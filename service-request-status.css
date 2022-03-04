@@ -38,8 +38,8 @@ h6 {
 }
 
 .secondCol select,
-input,
-textarea {
+.secondCol input,
+.secondCol textarea {
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #f0f0f0 !important;
