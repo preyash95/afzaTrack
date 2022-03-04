@@ -13,9 +13,8 @@ body {
     border-radius: 6px;
 }
 
-/* registration field  */
-.registration-box {
-    
+.w80p{
+    width: 90%;
 }
 
 .registration-box__text {
